@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+
+<link rel="stylesheet" href="users.component.css">
+
+<div class="container">
+    <div class="list-group" *ngFor="let users of _user">
+        <div class="row">
+            <div class="col-md-2">
+                <img [src]="users.avatar" alt="">
+            </div>
+            <div class="col-md-10">
+                <h1 class="name">{{users.first_name}} </h1>
+                <h2 class="last-name"> {{users.last_name}} </h2>
+                <br>
+                <h2 class="more_info"> ID : {{users.id}} </h2>
+                <h2 class="more_info"> Email : {{users.email}} </h2>
+
+            </div>
+        </div>
+    </div>
+</div>

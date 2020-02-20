@@ -1,0 +1,30 @@
+.list-group {
+    margin: 20px;
+    padding: 20px;
+    background: steelblue;
+}
+
+.name {
+    color: turquoise;
+    font-size: 40px;
+}
+
+.last-name {
+    padding-left: 40px;
+    color: turquoise;
+    font-size: 20 px;
+}
+
+.info {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.more_info {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}

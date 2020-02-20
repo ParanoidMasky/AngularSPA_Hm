@@ -1,0 +1,13 @@
+form {
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 25px;
+    color: seashell;
+}
+
+.form-pos {
+    margin-top: 10px;
+}
